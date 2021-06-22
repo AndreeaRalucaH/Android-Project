@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/PagesBorders"
+    tools:context=".IstoricCheltuieli">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View android:id="@+id/strut3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/btnMancare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignRight="@id/strut3"
+            android:layout_alignParentLeft="true"
+            android:textSize="20dp"
+            android:fontFamily="@font/dekko_regular"
+            android:text="@string/mancare"
+            style="@style/GreenWhiteButton"/>
+
+        <Button
+            android:id="@+id/btnDistractie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@id/strut3"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp"
+            android:fontFamily="@font/dekko_regular"
+            android:text="@string/distractie"
+            style="@style/GreenWhiteButton"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View android:id="@+id/strut4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/btnUtilitati"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignRight="@id/strut4"
+            android:layout_alignParentLeft="true"
+            android:textSize="20dp"
+            android:fontFamily="@font/dekko_regular"
+            android:text="@string/utilitati"
+            style="@style/GreenWhiteButton"/>
+
+        <Button
+            android:id="@+id/btnAlteleCh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@id/strut4"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp"
+            android:fontFamily="@font/dekko_regular"
+            android:text="@string/altele"
+            style="@style/GreenWhiteButton"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnToateCh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/dekko_regular"
+        android:text="@string/toate_cheltuielile"
+        style="@style/GreenWhiteButton"/>
+
+
+    <ListView
+        android:id="@+id/listViewCheltuieliDB"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

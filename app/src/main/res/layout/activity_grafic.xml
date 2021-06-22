@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GraficActivity"
+    style="@style/PagesBorders">
+
+    <TextView
+        android:id="@+id/tvGrafic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center_horizontal"
+        android:text="@string/grafice"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="36sp"
+        android:fontFamily="@font/dekko_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frameID"
+        android:layout_width="371dp"
+        android:layout_height="476dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageBtnCheltuieli">
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/imageBtnVenituri"
+        android:layout_width="97dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickVenituri"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGrafic"
+        app:srcCompat="@drawable/incomedecupata" />
+
+    <ImageButton
+        android:id="@+id/imageBtnCheltuieli"
+        android:layout_width="97dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:onClick="clickCheltuieli"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageBtnVenituri"
+        app:srcCompat="@drawable/expenses" />
+
+    <TextView
+        android:id="@+id/tvVenituriGrafic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/venituri_grafic"
+        android:textColor="#090909"
+        android:textSize="24dp"
+        android:fontFamily="@font/dekko_regular"
+        app:layout_constraintStart_toEndOf="@+id/imageBtnVenituri"
+        app:layout_constraintTop_toBottomOf="@+id/tvGrafic" />
+
+    <TextView
+        android:id="@+id/tvCheltuieliGrafic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/cheltuieli_grafic"
+        android:textColor="#090909"
+        android:textSize="24dp"
+        android:fontFamily="@font/dekko_regular"
+        app:layout_constraintStart_toEndOf="@+id/imageBtnCheltuieli"
+        app:layout_constraintTop_toBottomOf="@+id/tvVenituriGrafic" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

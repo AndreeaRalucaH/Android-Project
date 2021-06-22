@@ -1,0 +1,91 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="PinkText" parent="Theme.AppCompat.DayNight">
+        <item name="android:textColor">@color/colorRedOrangeColorWheel</item>
+    </style>
+
+    <style name="PagesBorders" parent="Theme.AppCompat.DayNight">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+    </style>
+
+    <style name="BlueButtonStyle" parent="AppTheme.NoActionBar">
+        <item name="android:background">@color/colorUnitedNationsBlue</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+    </style>
+
+    <style name="GreenWhiteButton" parent="AppTheme.NoActionBar">
+        <item name="android:background">@color/colorDarkOlive</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/dekko_regular</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+    </style>
+
+
+    <style name="EtonGreenButtonStyle" parent="AppTheme.NoActionBar">
+        <item name="android:background">@color/colorEtonBlue</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+    </style>
+
+    <style name="GreenTeaTheme" parent="AppTheme.NoActionBar">
+        <item name="android:background">@color/colorBattleshipGrey</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+    </style>
+
+    <style name="GreenWhiteTheme" parent="AppTheme.NoActionBar">
+        <item name="android:background">@color/colorCornsilk</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">@font/dekko_regular</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+    </style>
+
+    <style name="EditTextGreenWhite" parent="AppTheme.NoActionBar">
+        <item name="android:backgroundTint">@color/colorFawn</item>
+        <item name="android:textColorHint">@color/colorDarkOlive</item>
+        <item name="android:textColor">@color/colorKombuGreen</item>
+        <item name="android:fontFamily">@font/dekko_regular</item>
+        <item name="android:textSize">20dp</item>
+    </style>v
+
+    <style name="EditTextColorsStyle" parent="AppTheme.NoActionBar">
+        <item name="android:backgroundTint">@color/colorUnitedNationsBlue</item>
+        <item name="android:textColorHint">@color/colorHunterGreen</item>
+        <item name="android:textColor">@color/colorHunterGreen</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="EditextColor" parent="AppTheme.NoActionBar">
+        <item name="colorControlNormal">#00ff00</item>
+        <item name="colorControlActivated">#4b0082</item>
+        <item name="colorControlHighlight">#ba55d3</item>
+        <item name="android:textColorHint">#99cc99</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

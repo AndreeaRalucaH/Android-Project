@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    style="@style/PagesBorders">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_page_welcome"
+        android:textSize="36sp"
+        android:fontFamily="@font/dekko_regular"
+        android:textAlignment="center"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/wallet_1" />
+
+    <Button
+        android:id="@+id/btnIstoric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/dekko_regular"
+        android:text="@string/main_menu_earnings_spendings"
+        style="@style/GreenWhiteButton"/>
+
+    <Button
+        android:id="@+id/btnVenituri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/dekko_regular"
+        android:text="@string/main_menu_earnings"
+        style="@style/GreenWhiteButton"/>
+
+    <Button
+        android:id="@+id/btnVenituriShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/dekko_regular"
+        android:text="@string/istoric_venituri"
+        style="@style/GreenWhiteButton"/>
+
+    <Button
+        android:id="@+id/btnCheltuieli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/dekko_regular"
+        android:text="@string/main_menu_spending"
+        style="@style/GreenWhiteButton"/>
+
+    <Button
+        android:id="@+id/btnCheltuieliShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/dekko_regular"
+        android:text="@string/istoric_cheltuieli"
+        style="@style/GreenWhiteButton"/>
+
+    <Button
+        android:id="@+id/btnGrafice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/dekko_regular"
+        android:text="@string/main_menu_graphs"
+        style="@style/GreenWhiteButton"/>
+
+    <Button
+        android:id="@+id/btnListaFacturi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/lista_facturi"
+        style="@style/GreenWhiteButton"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View android:id="@+id/strut2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/btnLogOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignRight="@id/strut2"
+            android:layout_alignParentLeft="true"
+            android:textSize="20dp"
+            android:fontFamily="@font/dekko_regular"
+            android:text="@string/main_menu_log_out"
+            style="@style/GreenWhiteButton"/>
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@id/strut2"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp"
+            android:fontFamily="@font/dekko_regular"
+            android:text="@string/main_menu_settings"
+            style="@style/GreenWhiteButton"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

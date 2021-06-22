@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "413849158938",
+    "project_id": "gestionarefinanciaraproj",
+    "storage_bucket": "gestionarefinanciaraproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413849158938:android:564db517eab5040b46d8a3",
+        "android_client_info": {
+          "package_name": "com.example.proiecthorhociagurita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413849158938-jmjv0hvtts9nmoi30ci1933f2ik7csst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAISH2wfQ5nmYzX2moRlOiePl_0m-eX4Ac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413849158938-jmjv0hvtts9nmoi30ci1933f2ik7csst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

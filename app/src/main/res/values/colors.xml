@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorHunterGreen">#2A6041</color>
+    <color name="colorUnitedNationsBlue">#5386E4</color>
+    <color name="colorRedOrangeColorWheel">#F15025</color>
+    <color name="colorEtonBlue">#91C499</color>
+
+    <!--GreenTea Theme-->
+    <color name="colorTeaGreen">#d2e4c4</color>
+    <color name="colorCambridgeBlue">#b5cbb7</color>
+    <color name="colorBattleshipGrey">#818479</color>
+    <color name="coloPaleSpringBud">#E4E9B2</color>
+    <color name="colorKaki">#e7e08b</color>
+
+    <!--GreenWhite Theme-->
+    <color name="colorDarkOlive">#606C38</color>
+    <color name="colorKombuGreen">#283618</color>
+    <color name="colorCornsilk">#FEFAE0</color>
+    <color name="colorFawn">#DDA15E</color>
+    <color name="colorLiverDogs">#BC6C25</color>
+
+
+</resources>

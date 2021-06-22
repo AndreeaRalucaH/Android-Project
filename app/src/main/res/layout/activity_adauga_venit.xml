@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdaugaVenit"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    style="@style/PagesBorders">
+
+    <TextView
+        android:id="@+id/tvAdaugaVenit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adauga_venit"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="36sp"
+        android:fontFamily="@font/dekko_regular"
+        android:typeface="serif" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+
+    <EditText
+        android:id="@+id/editTextProvenientaVenit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/provenienta"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        style="@style/EditTextGreenWhite"
+        />
+
+    <EditText
+        android:id="@+id/editTextSumaAdaugaVenit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/sumaVenit"
+        android:inputType="number"
+        style="@style/EditTextGreenWhite"/>
+
+
+    <TextView
+        android:id="@+id/tvDataVenit"
+        style="@style/EditTextGreenWhite"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:ems="10"
+        android:hint="@string/data"
+        android:inputType="date"
+        android:typeface="serif" />
+
+    <Spinner
+        android:id="@+id/spinnerCashAdaugaVenit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dekko_regular"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnOkAdaugaVenit"
+                style="@style/GreenWhiteButton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="bottom"
+                android:text="@string/okLogin"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/btnCancelAdaugaVenit"
+                style="@style/GreenWhiteButton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_alignParentRight="true"
+                android:text="@string/cancelLogin"
+                android:typeface="serif" />
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">ProiectHorhociaGurita</string>
+    <string name="register_main_text">Inregistrare utilizator nou</string>
+    <string name="user_name">Nume</string>
+    <string name="user_surname">Prenume</string>
+    <string name="mail">Mail</string>
+    <string name="phone_number">Telefon</string>
+    <string name="password">Parola</string>
+    <string name="repeat_password">Confirma parola</string>
+    <string name="gender">Sex:</string>
+    <string name="rb_female">Feminin</string>
+    <string name="rb_male">Masculin</string>
+    <string name="birthday">Data nasterii</string>
+    <string name="terms">Sunt de acord cu termenii si conditiile utilizarii aplicatiei</string>
+    <string name="newsletter">Doresc sa ma abonez la newsletter</string>
+    <string name="register_button">Inregistreaza-ma</string>
+    <string name="main_page_welcome">Bine ai venit!</string>
+    <string name="main_menu_earnings_spendings">Venituri si cheltuieli - sesiunea curenta</string>
+    <string name="main_menu_earnings">Adauga venit</string>
+    <string name="main_menu_spending">Adauga cheltuiala</string>
+    <string name="main_menu_graphs">Banii mei in grafice</string>
+    <string name="main_menu_about_us">Despre noi</string>
+    <string name="main_menu_log_out">Delogheaza-ma</string>
+    <string name="main_menu_settings">Setari</string>
+    <string name="spendings_spending_name">Denumire cheltuiala</string>
+    <string name="spendings_sum">Suma</string>
+    <string name="spendings_date">Data cheltuiala</string>
+    <string name="spendings_notes">Notite</string>
+    <string name="button_OK">OK</string>
+
+
+    <!-- Andreea's strings -->
+
+    <string name="loginme">Log In</string>
+    <string name="signin">Sign In</string>
+    <string name="ro_en">RO/EN</string>
+
+    <string name="linktoeducatiefinanciara">
+<a href="https://www.educatiefinanciara.info/all-project-list/cum-sa-gestionez-bugetul/">Cum sa imi gestionez bugetul?</a>
+    </string>
+
+    <string name="linkto9metode">
+<a href="https://destepti.ro/gestionarea-bugetului-personal-9-metode-de-a-economisi-bani">9 metode de a economisi bani</a>
+    </string>
+
+    <string name="linktocumintocmestiunbuget">
+<a href="https://www.youtube.com/watch?v=Kt99FdkoLR4&amp;ab_channel=BancaComercialaRomana">Cum intocmesti un buget personal</a>
+    </string>
+
+    <string name="linktomotivepentrubugetpers">
+<a href="https://laurentiumihai.ro/motive-sa-folosesti-un-buget-personal/">10 motive pentru care ar trebui sa folosesti un buget personal</a>
+    </string>
+
+    <string name="e_mail">E-mail</string>
+    <string name="ati_uitat_parola">Ati uitat parola?</string>
+    <string name="okLogin">Ok</string>
+    <string name="cancelLogin">Cancel</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">Log In</string>
+    <string name="adauga_venit">Adauga venit</string>
+    <string name="data">Data</string>
+    <string name="provenienta">Provenienta</string>
+    <string name="okAdaugaVenit">Ok</string>
+    <string name="cancelAdaugaVenit">Cancel</string>
+    <string name="grafice">Grafice</string>
+
+    <string-array name="spinner_adauga_venit">
+        <item>Cash</item>
+        <item>Card</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pie_chart_venituri">Pie chart</string>
+    <string name="bar_chart_venituri">Bar chart</string>
+    <string name="line_chart_venituri">Line chart</string>
+    <string name="pie_chart_cheltuieli">Pie chart</string>
+    <string name="line_chart_cheltuieli">Line chart</string>
+    <string name="bar_chart_cheltuieli">Bar chart</string>
+    <string name="cheltuieli_grafic">Cheltuieli</string>
+    <string name="venituri_grafic">Venituri</string>
+    <string name="adauga_modifica_o_cheltuiala">Adauga/Modifica o cheltuiala</string>
+    <string name="sumaVenit">Suma</string>
+    <string name="cancelCheltuieli">Cancel</string>
+    <string name="lista_facturi">Lista facturi</string>
+    <string name="afiseaza">Afiseaza</string>
+    <string name="factura">Factura</string>
+    <string name="data_emitere">Data emitere</string>
+    <string name="suma">Suma</string>
+    <string name="data_scadenta">Data scadenta</string>
+    <string name="mentiuni">Mentiuni</string>
+    <string name="plateste">Plateste</string>
+    <string name="back">Back</string>
+    <string name="denumire_furnizor">Denumire furnizor</string>
+    <string name="introduceti_datele_cardului">Introduceti datele cardului</string>
+    <string name="plateste1">Plateste</string>
+    <string name="numarul_caldului">Numarul caldului</string>
+    <string name="cod_securitate">Cod securitate</string>
+    <string name="data_expirarii">Data expirarii</string>
+    <string name="numele_detinatorului">Numele detinatorului</string>
+    <string name="total_de_plata">Total de plata</string>
+    <string name="ex_1234_4534_2342_1234">ex: 1234 4534 2342 1234</string>
+    <string name="cvv_cvv2">CVV/CVV2</string>
+    <string name="detinatorul_cardului">Detinatorul cardului</string>
+    <string name="ex_01_2021">ex: 01/2021</string>
+    <string name="denumire_furnizor1">Denumire furnizor</string>
+    <string name="suma1">Suma</string>
+    <string name="data_scadenta1">Data scadenta</string>
+    <string name="mentiuni1">Mentiuni</string>
+    <string name="lista_facturi1">Lista facturi</string>
+    <string name="grafic">Grafic</string>
+    <string name="istoric_venituri">Istoric venituri</string>
+    <string name="istoric_cheltuieli">Istoric cheltuieli</string>
+    <string name="mancare">Mancare</string>
+    <string name="distractie">Distractie</string>
+    <string name="utilitati">Utilitati</string>
+    <string name="altele">Altele</string>
+    <string name="toate_cheltuielile">Toate cheltuielile</string>
+    <string name="titluGraficCheltuieli">Grafic cheltuieli</string>
+    <string name="titluGraficVenituri">Grafic venituri</string>
+    <string name="ro">RO</string>
+    <string name="en">EN</string>
+
+</resources>

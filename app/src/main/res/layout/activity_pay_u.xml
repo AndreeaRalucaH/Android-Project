@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    style="@style/PagesBorders"
+    tools:context=".PayUActivity">
+
+
+    <TextView
+        android:id="@+id/tvIntroducetiDateCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text="@string/introduceti_datele_cardului" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/numarul_caldului" />
+
+    <EditText
+        android:id="@+id/editTextNumarulCardului"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:inputType="textPersonName"
+        style="@style/EditTextGreenWhite"
+        android:hint="@string/ex_1234_4534_2342_1234"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <View android:id="@+id/strutPayU"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/tvDataExpirare"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/strutPayU"
+        android:layout_alignParentLeft="true"
+        android:textAlignment="center"
+        android:ems="10"
+        android:text="@string/data_expirarii" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/strutPayU"
+        android:layout_alignParentRight="true"
+        android:textAlignment="center"
+        android:ems="10"
+        android:text="@string/cod_securitate" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <View android:id="@+id/strutPayU2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editTextDataCard"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/strutPayU2"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        style="@style/EditTextGreenWhite"
+        android:hint="@string/ex_01_2021"
+        />
+
+    <EditText
+        android:id="@+id/editTextCodSecuritate"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/strutPayU2"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        style="@style/EditTextGreenWhite"
+        android:hint="@string/cvv_cvv2"
+         />
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/numele_detinatorului" />
+
+    <EditText
+        android:id="@+id/editTextDetinatorulCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        style="@style/EditTextGreenWhite"
+        android:hint="@string/detinatorul_cardului"/>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/total_de_plata" />
+
+    <EditText
+        android:id="@+id/editTextTotalDePlata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textAlignment="center"
+        style="@style/EditTextGreenWhite"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <Button
+        android:id="@+id/btnPlatestePayU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/GreenWhiteButton"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="@string/plateste" />
+</LinearLayout>

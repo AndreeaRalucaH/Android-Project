@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdaugareCheltuiala"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    style="@style/PagesBorders">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adauga_modifica_o_cheltuiala"
+        android:textColor="#090909"
+        android:textSize="36sp"
+        android:typeface="serif"
+        android:fontFamily="@font/dekko_regular"
+        android:textAlignment="center"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <EditText
+        android:id="@+id/et_SpendingName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dekko_regular"
+        android:textSize="18sp"
+        android:ems="10"
+        android:hint="@string/spendings_spending_name"
+        android:inputType="textPersonName"
+        style="@style/EditTextGreenWhite"
+
+        />
+
+    <EditText
+        android:id="@+id/et_SpendingSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:fontFamily="@font/dekko_regular"
+        android:textSize="18sp"
+        android:hint="@string/spendings_sum"
+        android:inputType="numberDecimal"
+        style="@style/EditTextGreenWhite"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_SpendingDate"
+        style="@style/EditTextGreenWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/dekko_regular"
+        android:hint="@string/spendings_date"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_SpendingNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:fontFamily="@font/dekko_regular"
+        android:textSize="18sp"
+        android:hint="@string/spendings_notes"
+        android:inputType="textMultiLine"
+        style="@style/EditTextGreenWhite"
+
+        />
+
+    <Spinner
+        android:id="@+id/spinner_SpendingType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/EditTextGreenWhite"
+        android:fontFamily="@font/dekko_regular"
+        android:textSize="18sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_SpendingsOK"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="bottom"
+            android:textSize="20dp"
+            android:text="@string/button_OK"
+            style="@style/GreenWhiteButton"/>
+
+
+        <Button
+            android:id="@+id/btn_SpendingsCancel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:fontFamily="@font/dekko_regular"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/cancelCheltuieli"
+            style="@style/GreenWhiteButton"/>
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

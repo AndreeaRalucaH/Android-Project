@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proiecthorhociagurita">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/GreenWhiteTheme">
+        <activity android:name=".IstoricVenituri"></activity>
+        <activity android:name=".IstoricCheltuieli" />
+        <activity android:name=".PieChartActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".PayUActivity" />
+        <activity android:name=".FacturaActivity" />
+        <activity android:name=".AfiseazaFactura" />
+        <activity android:name=".Istoric" />
+        <activity android:name=".GraficActivity" />
+        <activity android:name=".AdaugaVenit" />
+        <activity android:name=".LoginActivityMe" />
+        <activity android:name=".PaginaPrincipala">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdaugareCheltuiala" />
+        <activity android:name=".MainPage">
+
+        </activity>
+        <activity android:name=".Inregistrare" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

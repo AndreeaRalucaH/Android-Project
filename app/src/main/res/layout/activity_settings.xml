@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <PreferenceCategory
+        android:title="Setari aplicatie">
+        <EditTextPreference
+            android:name="Username"
+            android:summary="Andreea"
+            android:defaultValue="Andreea"
+            android:title="Username"
+            android:key="etUsername" />
+
+        <EditTextPreference
+            android:name="Parola"
+            android:summary="parola"
+            android:title="Parola"
+            android:inputType = "textPassword"
+            android:key="etParola" />
+
+        <EditTextPreference
+            android:name="Email"
+            android:summary="andreea@gmail.com"
+            android:defaultValue="andreea@gmail.com"
+            android:title="Email"
+            android:key="etEmail" />
+
+        <CheckBoxPreference
+            android:key="cbSex"
+            android:summary="Feminin"
+            android:title="Sexul" />
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
+

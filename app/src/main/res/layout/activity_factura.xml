@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    style="@style/PagesBorders"
+    tools:context=".FacturaActivity">
+
+    <TextView
+        android:id="@+id/tvFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="36dp"
+        android:text="@string/factura" />
+
+    <TextView
+        android:id="@+id/tvDenumireFurnizor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/denumire_furnizor" />
+
+    <EditText
+        android:id="@+id/editTextDenumireFurnizor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        style="@style/EditTextGreenWhite"
+        android:inputType="textPersonName"
+        android:hint="@string/denumire_furnizor" />
+
+    <TextView
+        android:id="@+id/tvDataEmitere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="@string/data_emitere" />
+
+    <EditText
+        android:id="@+id/editTextDataEmitere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditTextGreenWhite"
+        android:hint="@string/data_emitere" />
+
+    <TextView
+        android:id="@+id/tvSumaFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="@string/suma" />
+
+    <EditText
+        android:id="@+id/editTextSumaFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        style="@style/EditTextGreenWhite"
+        android:inputType="textPersonName"
+        android:hint="@string/suma" />
+
+    <TextView
+        android:id="@+id/tvDataScadenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="@string/data_scadenta" />
+
+    <EditText
+        android:id="@+id/editTextDataScadenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditTextGreenWhite"
+        android:hint="@string/data_scadenta" />
+
+    <TextView
+        android:id="@+id/tvMentiuniFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="@string/mentiuni" />
+
+    <EditText
+        android:id="@+id/editTextMentiuniFactura"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        style="@style/EditTextGreenWhite"
+        android:hint="@string/mentiuni" />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnPlatesteFactura"
+                style="@style/GreenWhiteButton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="bottom"
+                android:text="@string/plateste" />
+
+            <Button
+                android:id="@+id/btnBackFactura"
+                style="@style/GreenWhiteButton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="bottom"
+                android:text="@string/back" />
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+
+
+</LinearLayout>
